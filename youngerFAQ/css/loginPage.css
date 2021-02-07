@@ -1,0 +1,38 @@
+@CHARSET "UTF-8";
+
+#main{
+	width:840px;
+}
+
+#left{
+	width:576px;
+	float:left;
+}
+
+#center{
+	width:240px;
+	float:left;
+	margin:-22px 0px 10px;
+	border:1px solid rgb:(170,170,170);
+	background: none repeat scroll 0% 0% rgb(249, 249, 249);
+}
+
+#right{
+	width:22px;
+	float:left;
+}
+
+#ft{
+	text-align:center;
+	color: rgb(122, 119, 200);
+	font-size: 12px;
+	font-family: Arial;
+	white-space: nowrap;
+	margin: 24px auto 15px;
+}
+
+.line{
+	margin-bottom: 5px;
+    line-height: 1px;
+    border-top: 1px solid rgb(204, 204, 204);
+}

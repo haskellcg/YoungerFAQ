@@ -1,0 +1,131 @@
+@charset "utf-8";
+body{
+	font:15px arial,宋体,sans-serif;
+	background: url("../image/bei5.jpg");
+
+    background-attachment: fixed;
+	color:black;
+}
+a{
+	color:#02864D;
+}
+a:visited{
+	color:blue;
+
+}
+
+a:hover{
+    text-decoration:underline; 
+}
+
+.top{
+	font-size:15px;
+    text-align: right;
+	text-decoration:underline;
+    position: absolute;
+    right: 0px;
+    padding-right: 10px;
+    top: 4px;
+    z-index: 65532;
+    width: 100% !important;
+
+}
+.top a{
+	padding-top:0px;
+	margin-right:5px;
+}
+
+#page{
+	width:984px;
+	padding-top:25px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+	clear:both;
+
+}
+#page .head_serch{
+	float:left;
+}
+
+.logo{
+	float:left;
+	position:relative;
+	
+}
+
+.input_text{
+	margin-top:25px;
+	padding:6px 10px 6px 10px;
+	clear:both;
+	
+}
+.btns{
+	margin-left:140px;
+	padding-top:2px;
+	border:1px;
+}
+.btns .btn_wrap{
+	 width: 97px;
+    height: 34px;
+    float: left;
+    margin-right: 6px;
+
+}
+
+.button{
+	font-size:15px;
+    font-weight:600;
+	background:#8FBC8F;
+	color:white;
+    width: 95px;
+    height: 28px;
+    padding: 0px;
+	border:none;
+	margin-top:5px;
+    margin-right: 6px;
+}
+.bar{
+	margin-top:15px;
+	height: 33px;
+	background: #8FBC8F;
+	overflow:hidden;
+}
+.bar .bar_nav{
+	height: 32px;
+	text-align:center;
+	border-right:1px solid  #3CB371!important;
+	float:left;
+	width: 100px;
+	padding-right:10px;
+	padding-left:10px;
+	padding-top:4px;
+}
+
+.bar a{
+	text-decoration:none;
+	color:#FFF;
+	font-size:20px;
+	font-weight:600;
+	height: 34px;
+}
+.bar .bar_nav:hover{
+	background:#3CB371;
+}
+.bar .bar_nav:active{
+	background:#3CB371;
+}
+
+#ft{
+	text-align:center;
+	color: rgb(122, 119, 200);
+	font-size: 12px;
+	font-family: Arial;
+	white-space: nowrap;
+	margin: 24px auto 15px;
+}
+
+.line{
+	margin-bottom: 5px;
+    line-height: 1px;
+    border-top: 1px solid rgb(204, 204, 204);
+}
